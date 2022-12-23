@@ -1,0 +1,23 @@
+{
+  "name": "alabere__abdulazeez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "output-css": "tailwindcss  src/styles.css -o public/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Alabere-coder/Alabere__Abdulazeez.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alabere-coder/Alabere__Abdulazeez/issues"
+  },
+  "homepage": "https://github.com/Alabere-coder/Alabere__Abdulazeez#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
