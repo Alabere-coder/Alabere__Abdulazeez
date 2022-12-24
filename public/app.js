@@ -1,3 +1,15 @@
+const textBtns = document.querySelectorAll('.contact__btn');
+
+textBtns.forEach(textBtn => {
+  let text = textBtn.querySelector('p');
+
+  text.innerHTML = text.innerHTML.split('').map((character, index) => `<span style="transform: rotate(${index * 13}deg)">${character}</span>`).join('')
+})
+
+
+
+
+
 const hamburger = document.querySelector("#hamburger")
 const menu = document.querySelector("#menu")
 const moon = document.querySelector("#moon")

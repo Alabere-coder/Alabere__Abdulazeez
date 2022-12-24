@@ -11,8 +11,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet" />
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="./public/output.css" />
-    <title>Tailwind Portfolio</title>
+    <title>Alabere__Abdulazeez</title>
 </head>
 
 <body class="font-nunito">
@@ -24,7 +25,7 @@
             <div class="container mx-auto py-5 flex items-center justify-between">
                 <div class="flex items-center gap-4 pl-4">
                     <!-- <img class="w-8" src="./img/logo.png" alt="" /> -->
-                    <span class="text-2xl font-bold text-indigo-900 dark:text-white"><span>Alabere</span>.</span>
+                    <span class="text-2xl font-bold text-blue-900 dark:text-white"><span>A</span>labere</span>
                 </div>
                 <ul class="hidden md:flex space-x-10 text-gray-600 dark:text-gray-100 font-bold text-sm uppercase">
                     <li class="hover:text-gray-500">
@@ -37,13 +38,15 @@
                         <a href="#services">services</a>
                     </li>
                     <li class="hover:text-gray-500">
-                        <a href="#works">works</a>
+                        <a href="#works">projects</a>
                     </li>
                     <li class="hover:text-gray-500">
                         <a href="#contact">contact</a>
                     </li>
                 </ul>
-                <img id="moon" src="./public/img/moon.png" class="hidden md:block w-6 mx-8 cursor-pointer" alt="" />
+                <span id="moon"><i class="md:block w-6 mx-8 cursor-pointer far fa-moon "></i></span>
+
+                <!-- <img id="moon" src="./public/img/moon.png" class="hidden md:block w-6 mx-8 cursor-pointer" alt="" /> -->
                 <div id="hamburger" class="space-y-30 md:hidden cursor-pointer z-20">
                     <div class="w-6 h-0.5 bg-black"></div>
                     <div class="w-6 h-0.5 bg-black"></div>
@@ -61,7 +64,7 @@
                         <a id="hLink" href="#services">services</a>
                     </li>
                     <li>
-                        <a id="hLink" href="#works">works</a>
+                        <a id="hLink" href="#works">projects</a>
                     </li>
                     <li>
                         <a id="hLink" href="#contact">contact</a>
@@ -69,9 +72,18 @@
                 </ul>
             </div>
         </nav>
+
+        <div class="contact__header text-indigo-900">
+            <a href="mailto:alabere4real247@gmial.com" class="contact__btn header__btn">
+                <!-- <a href="mailto:alabere007@gmail.com" class="far fa-envelope"></a> -->
+                <i class="far fa-envelope"></i>
+                <p class="absolute">CONTACT - SEND ME AN EMAIL</p>
+            </a>
+        </div>
         <!-- intro content -->
         <!-- image -->
-        <img class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover" src="./public/img/man.png" alt="" />
+        <img class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover" src="./public/img/showcase.svg"
+            alt="" />
         <!-- circle -->
         <div
             class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-big h-big bg-indigo-900 rounded-full -z-10">
@@ -79,8 +91,8 @@
         <!-- animated text -->
         <div
             class="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-7xl font-medium">
-            <span class="text-blue-500">Alabere</span>
-            <p id="text" class="text-red-500"></p>
+            <span class="text-blue-500 p-10">Software Dev</span>
+            <p id="text" class="text-indigo-900 p-10 py-10"></p>
         </div>
         <!-- texts -->
         <div
@@ -108,7 +120,7 @@
             <div class="relative">
                 <img class="h-1/4 absolute top-0 left-0 -z-10" src="./public/img/dots.png" alt="" />
                 <div class="h-full rounded-full overflow-hidden">
-                    <img src="./public/img/portrait.png" alt="" />
+                    <img src="./public/img/achievement1.svg" alt="" />
                 </div>
             </div>
             <!-- right -->
@@ -120,10 +132,9 @@
                 </h1>
                 <p class="text-gray-400">
                     I design and build digital products. I'm also a multi-disciplinary
-                    maker with over 10 years of experiences in wide range of design
-                    disciplines.
+                    maker with over 2 years of experiences in awesome user-interface
                 </p>
-                <h2 class="text-gray-400 font-medium">Frontend web development</h2>
+                <h2 class="text-gray-400 py-5 font-medium">Frontend web development</h2>
                 <div class="w-full bg-gray-200 h-1.5 rounded-md">
                     <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
                 </div>
@@ -131,15 +142,15 @@
                 <div class="w-full bg-gray-200 h-1.5 rounded-md">
                     <div class="w-4/6 bg-indigo-600 h-1.5 rounded-md"></div>
                 </div> -->
-                <h2 class="text-gray-400 font-medium">Frontend Frameworks(React &amp; Gatsby )</h2>
+                <h2 class="text-gray-400 py-5 font-medium">Frontend Frameworks(React &amp; Gatsby )</h2>
                 <div class="w-full bg-gray-200 h-1.5 rounded-md">
                     <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
                 </div>
-                <h2 class="text-gray-400 font-medium">Version Control System [ GIT ]</h2>
+                <h2 class="text-gray-400 py-5 font-medium">Version Control System [ GIT ]</h2>
                 <div class="w-full bg-gray-200 h-1.5 rounded-md">
                     <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
                 </div>
-                <h2 class="text-gray-400 font-medium">Css Frameworks (Bootsrap, Tailwind....</h2>
+                <h2 class="text-gray-400 py-5 font-medium">Css Frameworks (Bootsrap, Tailwind....</h2>
                 <div class="w-full bg-gray-200 h-1.5 rounded-md">
                     <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
                 </div>
@@ -158,70 +169,58 @@
                     strengthens your company’s brand while ensuring ease of use and
                     simplicity for your audience.
                 </p>
+                <h2>Frontend Web</h2>
+                <p>
+                    I build responsive web applications using modern frameworks
+                </p>
+                <p>And as well using Css Frameworks (Bootsrap, Tailwind....)</p>
             </div>
             <!-- bottom -->
             <div class="p-5 sm:p-0 flex flex-wrap justify-between">
-                <!-- card -->
-                <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
-                    <img class="w-10" src="./public/img/icon.png" alt="" />
-                    <h1 class="font-medium text-lg dark:text-white">UX / UI Design</h1>
+                <!--card -->
+                <div class="w-full md:w-4/12 bg-indigo-500 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
+                    <img class="w-10" src="./public/img/icon/development.png" alt="" />
+                    <h1 class="font-medium text-lg dark:text-white">Frontend Web</h1>
                     <p class="text-gray-400">
-                        I build responsive web applications using modern frameworks
+                        I build responsive web pages using Html, Css and JavaScript
                     </p>
                     <a class="text-indigo-600 font-semibold text-sm" href="">Read More</a>
                 </div>
-                <!-- card -->
+                <!--card -->
                 <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
-                    <img class="w-10" src="./public/img/icon.png" alt="" />
-                    <h1 class="font-medium text-lg dark:text-white">UX / UI Design</h1>
+                    <img class="w-10" src="./public/img//icon/web-design.png" alt="" />
+                    <h1 class="font-medium text-lg dark:text-white">Frame-Works</h1>
                     <p class="text-gray-400">
-                        I build secure apps using Python Typescript, nodejs, express, electronjs.
+                        I build responsive web applications using modern frameworks.
+                        And as well using Css Frameworks (Bootsrap, Tailwind....).
                     </p>
                     <a class="text-indigo-600 font-semibold text-sm" href="">Read More</a>
                 </div>
-                <!-- card -->
+                <!--card -->
                 <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
-                    <img class="w-10" src="./public/img/icon.png" alt="" />
-                    <h1 class="font-medium text-lg dark:text-white">UX / UI Design</h1>
+                    <img class="w-10" src="./public/img/icon/backend.png" alt="" />
+                    <h1 class="font-medium text-lg dark:text-white">Backend</h1>
                     <p class="text-gray-400">
-                        I specialize in creating interactive websites for individuals and
-                        small businesses.
+                        I have experience in writing RESTapis with Express Node....
                     </p>
                     <a class="text-indigo-600 font-semibold text-sm" href="">Read More</a>
                 </div>
-                <!-- card -->
+                <!--card -->
                 <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
-                    <img class="w-10" src="./public/img/icon.png" alt="" />
-                    <h1 class="font-medium text-lg dark:text-white">UX / UI Design</h1>
+                    <img class="w-10" src="./public/img/icon/cloud-service.png" alt="" />
+                    <h1 class="font-medium text-lg dark:text-white">Software</h1>
                     <p class="text-gray-400">
-                        I specialize in creating interactive websites for individuals and
-                        small businesses.
+                        I also have knowledge in building secure apps using Python Typescript, nodejs, express,
                     </p>
-                    <a class="text-indigo-600 font-semibold text-sm" href="">Read More</a>
-                </div>
-                <!-- card -->
-                <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
-                    <img class="w-10" src="./public/img/icon.png" alt="" />
-                    <h1 class="font-medium text-lg dark:text-white">UX / UI Design</h1>
-                    <p class="text-gray-400">
-                        I specialize in creating interactive websites for individuals and
-                        small businesses.
-                    </p>
-                    <a class="text-indigo-600 font-semibold text-sm" href="">Read More</a>
-                </div>
-                <!-- card -->
-                <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
-                    <img class="w-10" src="./public/img/icon.png" alt="" />
-                    <h1 class="font-medium text-lg dark:text-white">UX / UI Design</h1>
-                    <p class="text-gray-400">
-                        I specialize in creating interactive websites for individuals and
-                        small businesses.
-                    </p>
-                    <a class="text-indigo-600 font-semibold text-sm" href="">Read More</a>
+                    <a class="text-indigo-600 font-semibold text-sm" href="#">Read More</a>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+    <!-- service section end-->
+
+
     <!-- works -->
     <div id="works" class="py-40 dark:bg-slate-900">
         <div class="container mx-auto">
@@ -240,42 +239,42 @@
                 <!-- card -->
                 <div
                     class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
-                    <img src="./public/img/skills/Laptop.png" />
+                    <a href="#"><img src="./public/img/skills/Laptop.png" /></a>
                 </div>
                 <!-- card -->
                 <div
                     class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
-                    <img src="./public/img/skills/port-1.jpeg" />
+                    <a href="#"><img src="./public/img/skills/port-1.jpeg" /></a>
                 </div>
                 <!-- card -->
                 <div
                     class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
-                    <img src="./public/img/skills/port-2.jpeg" />
+                    <a href="#"><img src="./public/img/skills/port-2.jpeg" /></a>
                 </div>
                 <!-- card -->
                 <div
                     class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
-                    <img src="./public/img/skills/port-4.jpg" />
+                    <a href="#"><img src="./public/img/skills/port-4.jpg" /></a>
                 </div>
                 <!-- card -->
                 <div
                     class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
-                    <img src="./public/img/skills/portfolio-img1.jpg" />
+                    <a href="#"><img src="./public/img/skills/portfolio-img1.jpg" /></a>
                 </div>
                 <!-- card -->
                 <div
                     class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
-                    <img src="./public/img/skills/portfolio-img10.jpg" />
+                    <a href="#"><img src="./public/img/skills/portfolio-img10.jpg" /></a>
                 </div>
                 <!-- card -->
                 <div
                     class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
-                    <img src="./public/img/skills/portfolio-img2.jpg" />
+                    <a href="#"><img src="./public/img/skills/portfolio-img2.jpg" /></a>
                 </div>
                 <!-- card -->
                 <div
                     class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
-                    <img src="./public/img/skills/portfolio-img4.jpg" />
+                    <a href="#"><img src="./public/img/skills/portfolio-img4.jpg" /></a>
                 </div>
             </div>
         </div>
@@ -287,23 +286,23 @@
             <!-- top -->
             <div class="flex flex-col gap-3 items-center">
                 <h1 class="text-indigo-600 font-bold">CONTACT</h1>
-                <h1 class="text-3xl dark:text-white">Have a Question?</h1>
+                <h1 class="text-3xl dark:text-white">You Can Reach Out To Me</h1>
                 <p class="w-1/2 text-center text-gray-400">
-                    Do you have an idea? Let's discuss it and see what we can do
-                    together.
+                    Do you have an idea? Let's discuss it and bring it to the real World.
                 </p>
             </div>
             <!-- bottom -->
-            <form class="mt-5 p-8 flex flex-col gap-5 items-center">
+            <form class="mt-5 p-8 flex flex-col gap-5 items-center" action="https://formsubmit.co/alabere007@gmail.com"
+                method="POST" id="contact-form">
                 <input
                     class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
-                    type="text" placeholder="Name Surname" />
+                    type="text" placeholder="Full-Name" required id="fullname" />
                 <input
                     class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
-                    type="email" placeholder="Email" />
+                    type="email" placeholder="Email" id="email" required />
                 <textarea
                     class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
-                    cols="30" rows="10" placeholder="Message..."></textarea>
+                    cols="30" rows="10" placeholder="Message..." required></textarea>
                 <button class="w-1/2 bg-indigo-600 text-white font-medium px-3 py-2 rounded-md cursor-pointer">
                     Submit
                 </button>
